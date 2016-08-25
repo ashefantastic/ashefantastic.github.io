@@ -1,0 +1,21 @@
+# Site settings
+title: The day and the life of a guy trying to code
+header-img: img/home-bg.png
+email: amnon.ashe@gmail.com
+copyright_name: ashefantastic
+description: > # this means to ignore newlines until "baseurl:"
+  by Ashefantastic
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: ashefantastic
+github_username:  ashefantastic
+learn_profile: ashefantastic
+email_username: amnon.ashe@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
